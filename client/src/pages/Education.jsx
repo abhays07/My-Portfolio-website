@@ -40,7 +40,7 @@ export default function Education() {
               variants={container}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: false, amount: 0.3 }}
+              viewport={{ once: true, amount: 0.2 }}
               className="space-y-20"
             >
               {EDUCATION_HISTORY.map((edu) => (

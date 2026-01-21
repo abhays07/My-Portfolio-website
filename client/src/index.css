@@ -1,17 +1,26 @@
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
 @import "tailwindcss";
 
 /* Keyframe animations */
 @keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes caretBlink {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 .animate-typewriter {
@@ -37,31 +46,35 @@ section {
 
 /* Base styling */
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-weight: 400;
   line-height: 1.6;
   color: #ffffff;
-  background-color: #092A2F;
+  background-color: #092a2f;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Syne', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Syne", sans-serif;
   font-weight: 700;
 }
 
 /* Paragraphs, links, spans, list items */
-p, span, a, li {
-  font-family: 'Lato', sans-serif;
+p,
+span,
+a,
+li {
+  font-family: "Lato", sans-serif;
   font-weight: 600;
 }
 
 /* Optional: Smooth transitions */
-* {
-  transition: all 0.3s ease;
-}
-
-
+/* Global transitions removed for performance - apply strictly where needed */

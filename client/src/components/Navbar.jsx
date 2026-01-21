@@ -13,8 +13,19 @@ import {
 } from "react-icons/fa";
 import Logo from "../assets/icons/A.svg";
 import { motion } from "framer-motion";
-
-const Navbar = () => {
+ 
+ const menuItems = [
+   { href: "home", icon: <FaHome size={20} />, label: "Home" },
+   { href: "about", icon: <FaUserAlt size={20} />, label: "About" },
+   { href: "skills", icon: <FaTools size={20} />, label: "Skills" },
+   { href: "projects", icon: <FaProjectDiagram size={20} />, label: "Projects" },
+   { href: "certifications", icon: <FaCertificate size={20} />, label: "Certifications" },
+   { href: "education", icon: <FaGraduationCap size={20} />, label: "Academics" },
+   { href: "contact", icon: <FaEnvelope size={20} />, label: "Contact" },
+   { href: "/abhay_Resume.pdf", icon: <FaDownload size={20} />, label: " Download Resume", isDownload: true },
+ ];
+ 
+ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [navBg, setNavBg] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
@@ -70,16 +81,7 @@ const Navbar = () => {
     };
   }, [isVisible, navHeight]);
 
-  const menuItems = [
-    { href: "home", icon: <FaHome size={20} />, label: "Home" },
-    { href: "about", icon: <FaUserAlt size={20} />, label: "About" },
-    { href: "skills", icon: <FaTools size={20} />, label: "Skills" },
-    { href: "projects", icon: <FaProjectDiagram size={20} />, label: "Projects" },
-    { href: "certifications", icon: <FaCertificate size={20} />, label: "Certifications" },
-    { href: "education", icon: <FaGraduationCap size={20} />, label: "Academics" },
-    { href: "contact", icon: <FaEnvelope size={20} />, label: "Contact" },
-    { href: "/abhay_Resume.pdf", icon: <FaDownload size={20} />, label: " Download Resume", isDownload: true },
-  ];
+  /* menuItems moved outside component */
 
   return (
     <nav

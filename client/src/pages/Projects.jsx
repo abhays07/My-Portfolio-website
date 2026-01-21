@@ -82,13 +82,13 @@ export default function ProjectsPage() {
                   <h3 className="mt-1 text-lg sm:text-xl font-semibold">{p.title}</h3>
                 </div>
 
-                <div className="absolute inset-0 flex items-start p-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                <div className="absolute inset-0 flex items-start p-5 opacity-0 focus-within:opacity-100 transition-opacity duration-300 group-hover:opacity-100">
                   <div className="ml-auto flex gap-2">
                     <a
                       href={p.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-lg bg-yellow-400 px-3 py-2 text-black text-sm font-semibold hover:bg-yellow-300 transition-colors duration-300"
+                      className="rounded-lg bg-yellow-400 px-3 py-2 text-black text-sm font-semibold hover:bg-yellow-300 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-400"
                     >
                       Visit
                     </a>
@@ -97,7 +97,7 @@ export default function ProjectsPage() {
                         href={p.repo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="rounded-lg border border-white/30 px-3 py-2 text-sm font-semibold hover:bg-white/10 transition-colors duration-300"
+                        className="rounded-lg border border-white/30 px-3 py-2 text-sm font-semibold hover:bg-white/10 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-white"
                       >
                         Code
                       </a>

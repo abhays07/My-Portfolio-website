@@ -55,7 +55,7 @@ export default function Home() {
       >
         <motion.h1
           variants={fadeUp}
-          className="font-extrabold text-white text-3xl sm:text-2xl md:text-4xl lg:text-6xl leading-tight mb-4"
+          className="font-extrabold text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-4"
           style={{ fontFamily: "'Syne', sans-serif", fontWeight: "700" }}
         >
           MERN Stack Developer &
@@ -63,7 +63,7 @@ export default function Home() {
 
         <motion.h1
           variants={fadeUp}
-          className="font-extrabold text-white text-3xl sm:text-5xl md:text-6xl lg:text-6xl mb-8"
+          className="font-extrabold text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
           style={{ fontFamily: "'Syne', sans-serif", fontWeight: "700" }}
         >
           <span className="text-yellow-400 mr-2">Cloud Computing</span>
