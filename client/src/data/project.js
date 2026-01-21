@@ -1,4 +1,4 @@
-import eventImage from "../assets/images/eventPlanner.jpg";
+import eventImage from "../assets/images/eventplanner.jpg";
 import portfolioImage from "../assets/images/portfolio.png";
 import feane from "../assets/images/feane.png";
 import digiworld from "../assets/images/digiworld.png";
