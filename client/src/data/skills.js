@@ -7,6 +7,8 @@ import react from "../assets/icons/react.svg";
 import mongodb from "../assets/icons/mongoDB.svg";
 import node from "../assets/icons/node.svg";
 import selenium from "../assets/icons/Selenium_logo.svg";
+import springboot from "../assets/icons/Spring_Boot.svg";
+import github from "../assets/icons/github.svg";
 
 export const SKILLS = [
     { id: "react",  name: "React",  percent: 80, color: "#FBBF24", icon: react },
@@ -14,6 +16,10 @@ export const SKILLS = [
     { id: "java",name: "JAVA", percent: 90, color: "#FBBF24", icon: java },
     { id: "selenium", name: "Selenium", percent: 86, color: "#FBBF24", icon: selenium },
     { id: "sql",  name: "SQL",  percent: 85, color: "#FBBF24", icon: sql },
+    {id: "springboot", name: "Spring Boot", percent: 86, color: "#FBBF24", icon: springboot },
+    { id: "selenium", name: "Selenium", percent: 86, color: "#FBBF24", icon: selenium },
+    { id: "sql",  name: "SQL",  percent: 85, color: "#FBBF24", icon: sql },
+    {id: "github", name: "GitHub", percent: 85, color: "#FBBF24", icon: github },
     { id: "html",    name: "Html",    percent: 97, color: "#FBBF24", icon: html },
     { id: "css", name: "CSS", percent: 95, color: "#FBBF24", icon: css },
     { id: "tailwind",name: "Tailwind CSS", percent: 96, color: "#FBBF24", icon: tailwind },
