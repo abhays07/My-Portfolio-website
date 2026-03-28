@@ -17,8 +17,6 @@ export const SKILLS = [
     { id: "selenium", name: "Selenium", percent: 86, color: "#FBBF24", icon: selenium },
     { id: "sql",  name: "SQL",  percent: 85, color: "#FBBF24", icon: sql },
     {id: "springboot", name: "Spring Boot", percent: 86, color: "#FBBF24", icon: springboot },
-    { id: "selenium", name: "Selenium", percent: 86, color: "#FBBF24", icon: selenium },
-    { id: "sql",  name: "SQL",  percent: 85, color: "#FBBF24", icon: sql },
     {id: "github", name: "GitHub", percent: 85, color: "#FBBF24", icon: github },
     { id: "html",    name: "Html",    percent: 97, color: "#FBBF24", icon: html },
     { id: "css", name: "CSS", percent: 95, color: "#FBBF24", icon: css },
